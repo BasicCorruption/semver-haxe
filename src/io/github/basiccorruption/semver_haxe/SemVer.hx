@@ -21,4 +21,15 @@ class SemVer
 		return x;
 	}
 	
+	public static function table(?major:Int = 1, ?minor:Int = 0, ?patch:Int = 0, ?build:Int = 1, ?stage:String = "release"):{} {
+		return {
+			major = major,
+			minor = minor,
+			patch = patch,
+			stage = stage,
+			stageLetter = stage[0],
+			build = build
+		};
+	}
+	
 }
