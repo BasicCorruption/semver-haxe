@@ -17,7 +17,7 @@ class SemVer
 		var mi = Std.string(minor);
 		var pa = Std.string(patch);
 		var bu = Std.string(build);
-		var x = ma + "." + mi + "." + pa + "-" = stage + "." + build
+		var x = '$ma.$mi.$pa-$stage.$bu';
 		return x;
 	}
 	
