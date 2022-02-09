@@ -1,0 +1,15 @@
+{
+  "name": "semver_haxe",
+  "url" : "https://basiccorruption.github.io/semver_haxe",
+  "license": "MIT",
+  "tags": ["cross", "semver"],
+  "description": "This library contains useful tools for converting to semantic versioning.",
+  "version": "1.0.0",
+  "classPath": "src/",
+  "releasenote": "Initial release",
+  "contributors": ["SidGames5"],
+  "dependencies": {
+    
+  },
+  "main": "io.github.basiccorruption.semver_haxe.SemVer"
+}
