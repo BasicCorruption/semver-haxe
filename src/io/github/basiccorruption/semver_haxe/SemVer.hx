@@ -12,6 +12,10 @@ class SemVer
 		
 	}
 	
+	public static function main() {
+		trace("SemVer Haxe 1.0.0-release.1");
+	}
+	
 	public static function string(?major:Int = 1, ?minor:Int = 0, ?patch:Int = 0, ?build:Int = 1, ?stage:String = "release"):String {
 		var ma = Std.string(major);
 		var mi = Std.string(minor);
