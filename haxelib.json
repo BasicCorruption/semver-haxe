@@ -7,7 +7,7 @@
     "semver"
   ],
   "description": "This library contains useful tools for converting to semantic versioning.",
-  "version": "1.0.0",
+  "version": "1.0.0.1",
   "classPath": "src/",
   "releasenote": "Initial release",
   "contributors": [
